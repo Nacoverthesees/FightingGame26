@@ -1,6 +1,6 @@
 package com.byZincn.fg26.m_system;
 
-import com.byZincn.fg26.a_system.render.Render;
+import com.byZincn.fg26.a_system.renders.Render;
 import com.byZincn.fg26.m_system.functional_unit.Window;
 import com.byZincn.fg26.m_system.functional_unit.Clock;
 

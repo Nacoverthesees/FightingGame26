@@ -1,0 +1,15 @@
+[
+  {
+    "button_id": "start_game",
+    "relX": 0.5,
+    "relY": 0.4,
+    "width": 240,
+    "height": 60,
+    "visible": true,
+    "enabled": true,
+    "src": "images/buttons/start.png",
+    "hoverSrc": "images/buttons/start_hover.png",
+    "pressedSrc": "images/buttons/start_pressed.png",
+    "disabledSrc": "images/buttons/start_disabled.png"
+  }
+]

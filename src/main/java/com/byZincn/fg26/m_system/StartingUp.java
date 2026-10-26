@@ -1,10 +1,11 @@
 package com.byZincn.fg26.m_system;
 
+import com.byZincn.fg26.a_system.loaders.data_rel.ButtonDataLoader;
+import com.byZincn.fg26.a_system.preloaders.ButtonPreloader;
 import com.byZincn.fg26.m_system.functional_unit.Window;
-import com.byZincn.fg26.a_system.render.Render;
+import com.byZincn.fg26.a_system.renders.Render;
 
 import org.lwjgl.glfw.GLFW;
-import org.lwjgl.opengl.GL;
 
 
 public class StartingUp {
@@ -34,7 +35,15 @@ public class StartingUp {
         //activate VSync
         GLFW.glfwSwapInterval(1);
 
-        //initialize render
+        //TODO:temp data loader
         Render.init();
+
+        //initialize gson
+        ButtonDataLoader.init();
+
+        //TODO: temp preloader
+        ButtonPreloader.preload();
+
+        //TODO: start LoginScene
     }
 }
