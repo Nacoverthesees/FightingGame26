@@ -35,10 +35,10 @@ public class StartingUp {
         //activate VSync
         GLFW.glfwSwapInterval(1);
 
-        //TODO:temp data loader
+        //init render
         Render.init();
 
-        //initialize gson
+        //TODO:temp data loader
         ButtonDataLoader.init();
 
         //TODO: temp preloader

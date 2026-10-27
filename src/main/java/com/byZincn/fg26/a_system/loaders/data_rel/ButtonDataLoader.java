@@ -33,7 +33,6 @@ public class ButtonDataLoader {
                     "ButtonDataLoader has not been initialized."
             );
         }
-
         return buttons;
     }
 }
