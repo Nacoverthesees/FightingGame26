@@ -10,6 +10,13 @@
     "src": "images/buttons/start.png",
     "hoverSrc": "images/buttons/start_hover.png",
     "pressedSrc": "images/buttons/start_pressed.png",
-    "disabledSrc": "images/buttons/start_disabled.png"
+    "disabledSrc": "images/buttons/start_disabled.png",
+
+    "judgeZone":{
+      "offsetX": 0,
+      "offsetY": 0,
+      "width": 260,
+      "height": 70
+    }
   }
 ]

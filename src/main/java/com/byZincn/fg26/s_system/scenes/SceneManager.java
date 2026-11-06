@@ -1,0 +1,43 @@
+package com.byZincn.fg26.s_system.scenes;
+
+public class SceneManager {
+
+    //define current scene
+    public static Scene currentScene;
+
+    //start a scene
+    public static void start(Scene scene) {
+        CrossSceneFunctions.init();
+
+        currentScene = scene;
+        currentScene.init();
+    }
+
+    //operate switch scene
+    public static void switchScene(Scene scene) {
+        if (currentScene != null) {
+            currentScene.shutdown();
+        }
+
+        currentScene = scene;
+        currentScene.init();
+    }
+
+    //maintain functions
+    public static void maintain() {
+        CrossSceneFunctions.maintain();
+
+        if (currentScene != null) {
+            currentScene.maintain();
+        }
+    }
+
+    //shut down functions
+    public static void shutdown() {
+        if (currentScene != null) {
+            currentScene.shutdown();
+        }
+
+        CrossSceneFunctions.shutdown();
+    }
+}

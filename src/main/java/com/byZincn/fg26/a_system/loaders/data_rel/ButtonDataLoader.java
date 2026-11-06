@@ -14,7 +14,7 @@ public class ButtonDataLoader {
     private static List<Button> buttons;
 
     // Load button configuration
-    public static void init() {
+    public static void load() {
         Type type = new TypeToken<List<Button>>() {}.getType();
 
         buttons = DataLoader.load(BUTTONS_PATH, type);

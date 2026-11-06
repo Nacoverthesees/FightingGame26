@@ -23,4 +23,7 @@ public class Button {
     public boolean hovered = false;
     public boolean pressed = false;
 
+    //judge zone rel
+    public JudgeZone judgeZone;
+    public ActualJudgeZone actualJudgeZone;
 }

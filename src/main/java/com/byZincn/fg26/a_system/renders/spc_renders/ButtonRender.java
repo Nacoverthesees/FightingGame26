@@ -1,4 +1,6 @@
-package com.byZincn.fg26.a_system.renders;
+package com.byZincn.fg26.a_system.renders.spc_renders;
+
+import com.byZincn.fg26.a_system.renders.RenderModule;
 
 public class ButtonRender implements RenderModule {
 
