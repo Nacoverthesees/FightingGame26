@@ -32,6 +32,11 @@ public class LoginScene implements Scene {
     }
 
     @Override
+    public List<Button> getButtons(){
+        return buttons;
+    }
+
+    @Override
     public void maintain(){
 
     }
