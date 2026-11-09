@@ -6,8 +6,9 @@ import com.byZincn.fg26.s_system.functional_unit.reception.Button;
 
 import java.util.List;
 
-public class ButtonMelTransmitter {
+public class ButtonDataTransmitter {
     public static void transmit(List<Button> buttons) {
         MouseEveListener.setButtons(buttons);
+        ButtonStateManager.setButtons(buttons);
     }
 }

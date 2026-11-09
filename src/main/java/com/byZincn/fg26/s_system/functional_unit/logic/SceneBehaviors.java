@@ -2,7 +2,7 @@ package com.byZincn.fg26.s_system.functional_unit.logic;
 
 
 
-public class Behaviors {
+public class SceneBehaviors {
     /*
     *TODO
     * flip:

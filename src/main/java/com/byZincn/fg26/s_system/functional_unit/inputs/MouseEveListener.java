@@ -35,7 +35,7 @@ public class MouseEveListener {
         updateButtonID();
     }
 
-    public static void init(){
+    public static void start(){
 
         //listen to mouse movement
         cursorPosCallback = GLFWCursorPosCallback.create(
@@ -60,7 +60,7 @@ public class MouseEveListener {
                             leftButtonDown = true;
                             pressedButtonID = buttonID;
                         }
-                        if (button == GLFW.GLFW_RELEASE){
+                        if (action == GLFW.GLFW_RELEASE){
                             updateButtonID();
                             leftButtonDown = false;
                             leftButtonReleased = true;

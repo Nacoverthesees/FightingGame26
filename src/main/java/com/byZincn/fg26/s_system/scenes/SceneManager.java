@@ -1,6 +1,6 @@
 package com.byZincn.fg26.s_system.scenes;
 
-import com.byZincn.fg26.s_system.functional_unit.logic.ButtonMelTransmitter;
+import com.byZincn.fg26.s_system.functional_unit.logic.ButtonDataTransmitter;
 
 public class SceneManager {
 
@@ -14,7 +14,7 @@ public class SceneManager {
         currentScene = scene;
         currentScene.init();
 
-        ButtonMelTransmitter.transmit(currentScene.getButtons());
+        ButtonDataTransmitter.transmit(currentScene.getButtons());
     }
 
     //operate switch scene
@@ -26,7 +26,7 @@ public class SceneManager {
         currentScene = scene;
         currentScene.init();
 
-        ButtonMelTransmitter.transmit(currentScene.getButtons());
+        ButtonDataTransmitter.transmit(currentScene.getButtons());
     }
 
     //maintain functions
