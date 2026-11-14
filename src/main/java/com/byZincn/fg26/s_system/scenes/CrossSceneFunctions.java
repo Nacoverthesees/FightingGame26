@@ -12,11 +12,10 @@ public class CrossSceneFunctions {
         ButtonDataLoader.load();
         ButtonPreloader.preload();
         MouseEveListener.start();
-        ButtonStateManager.init();
     }
 
     public static void maintain(){
-        ButtonStateManager.maintain();
+        ButtonStateManager.update();
     }
 
     public static void shutdown(){
