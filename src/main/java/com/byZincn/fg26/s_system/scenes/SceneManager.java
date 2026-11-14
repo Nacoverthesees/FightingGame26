@@ -1,6 +1,6 @@
 package com.byZincn.fg26.s_system.scenes;
 
-import com.byZincn.fg26.s_system.functional_unit.logic.ButtonDataTransmitter;
+import com.byZincn.fg26.s_system.functional_unit.data_control.ButtonDataTransmitter;
 
 public class SceneManager {
 
