@@ -25,10 +25,12 @@ public class JudgeZoneCalculator {
         }
 
         button.actualJudgeZone.x =
-                button.relX * windowWidth + zone.offsetX;
+                (button.relX + zone.offsetX) * windowWidth;
         button.actualJudgeZone.y =
-                button.relY * windowHeight + zone.offsetY;
-        button.actualJudgeZone.width = zone.width;
-        button.actualJudgeZone.height = zone.height;
+                (button.relY + zone.offsetY) * windowHeight;
+        button.actualJudgeZone.width =
+                zone.width * windowWidth;
+        button.actualJudgeZone.height =
+                zone.height * windowHeight;
     }
 }

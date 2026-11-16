@@ -3,8 +3,8 @@
     "button_id": "start_game",
     "relX": 0.5,
     "relY": 0.4,
-    "width": 240,
-    "height": 60,
+    "width": 0.1875,
+    "height": 0.083333,
     "visible": true,
     "enabled": true,
     "src": "images/buttons/start.png",
@@ -15,8 +15,8 @@
     "judgeZone":{
       "offsetX": 0,
       "offsetY": 0,
-      "width": 260,
-      "height": 70
+      "width": 0.1875,
+      "height": 0.083333
     }
   }
 ]
